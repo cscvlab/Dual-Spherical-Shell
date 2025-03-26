@@ -1,7 +1,7 @@
 # Neural Implicit Reconstruction and Fast Rendering Based on Dual Spherical Shell
 This repository contains the implementation of the paper:
 
-Zijian Wang, Yuqi Liu, Yan Zhao, Binghao Wang, Shen Cai, Yanting Zhang. Neural Implicit Reconstruction and Fast Rendering Based on Dual Spherical Shell. Accepted by IEEE International Conference on Multimedia and Expo (ICME) 2025 as a full paper.
+Zijian Wang, Yuqi Liu, Yan Zhao, Binghao Wang, Shen Cai*, Yanting Zhang. Neural Implicit Reconstruction and Fast Rendering Based on Dual Spherical Shell. Accepted by IEEE International Conference on Multimedia and Expo (ICME) 2025 as a full paper.
 ## Methodology
 We introduce a novel dual spherical shell representation that facilitates accurate reconstruction while keeping low storage demands.By leveraging a Multi-Layer Perceptron (MLP) to overfit the SDF in the interlayer of concentric spheres, we enable the compression and reconstruction of models utilizing neural SDF. Additionally, our  approach enhances the rendering efficiency by capitalizing on the intrinsic properties of spherical shell, which allows for a departure from the traditional sequential sphere tracing method along each ray. Four shapes are shown below. Compared to the previous works[1], our method achieves the high-fidelity and high-compression coding and reconstruction for most of 3D objects in the test dataset.
 
