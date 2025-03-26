@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/dependencies/eigen",
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/dependencies/pybind11/include",
+                "/usr/local/NVIDIA-OptiX-SDK-7.5.0-linux64-x86_64/include",
+                "${workspaceFolder}/dependencies/pybind11/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/local/cuda/bin/nvcc",
+            "cStandard": "gnu17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
