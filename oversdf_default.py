@@ -5,7 +5,7 @@ import torch
 from torch_geometric.nn import knn
 from utils.EmbedderHelper import get_embedder, get_embedder_sp
 # from spherelatent import computePropotion, getDistance, EuclideanDistance
-from PCT_model import Pctn, Pct
+# from PCT_model import Pctn, Pct
 from tqdm import tqdm
 import utils.geometry as geo
 import numpy as np

@@ -247,7 +247,7 @@ class NeuralImplicit():
             self.sphere32 = sphereSampler.getSpheres32()
             self.innersphere = inner_sphere
             # np.save('./sphere32.npy', self.sphere32)
-            np.save('data1/npy/'+self.mesh_name+'_'+str(self.sphere_num)+'_spheres.npy', self.sphere32)
+            # np.save('data1/npy/'+self.mesh_name+'_'+str(self.sphere_num)+'_spheres.npy', self.sphere32)
             # return
             # PRINT
             self.sphere32 = torch.from_numpy(self.sphere32).to(self.device)

@@ -37,11 +37,21 @@ https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1
 ```
 conda env create -f environment.yml
 conda activate kaolin_test
+pip install torch==1.12.0+cu113 torch-cluster==1.5.9 torch-geometric==1.4.1 torch-scatter==2.0.6 torch-sparse==0.6.10 torch-spline-conv==1.2.1
+
 cd ./submodules/miniball
 python setup.py install
 cd ..
 cd ./kaolin_sphere-0.9.1
 python setup.py develop
+cd ..
+cd ./libigl/python
+python setup.py
+cd ..
+cd ..
+cd ./geolab-copy
+cmake . -B build
+cmake --build build 
 ```
 
 ### Training

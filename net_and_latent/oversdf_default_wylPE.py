@@ -5,7 +5,7 @@ import torch
 from torch_geometric.nn import knn
 from utils.EmbedderHelper import get_embedder, get_embedder_sp
 # from spherelatent import computePropotion, getDistance, EuclideanDistance
-from PCT_model import Pctn, Pct
+# from PCT_model import Pctn, Pct
 from tqdm import tqdm
 import utils.geometry as geo
 import numpy as np
@@ -86,7 +86,7 @@ class OverfitSDF(nn.Module):
         fts = torch.zeros(self.sphere32_num, 32)
         self.spherefeatures = nn.Parameter(torch.rand_like(fts))  # 这里乘0.01是nglod这么做的，原因未知，后面问
 
-        net = [nn.Linear(78, N), nn.LeakyReLU(0.1)]
+        net = [nn.Linear(68, N), nn.LeakyReLU(0.1)]
         self.training = True
         for _ in range(H - 1):
             net += [nn.Linear(N, N), nn.LeakyReLU(0.1)]
@@ -134,7 +134,7 @@ class OverfitSDF(nn.Module):
         new_vec = self.get_dir_vec_and_dis(x[:, :3], sphere_index, self.sphere32)
         # time111 = time.time()
         # time111 = time.time()
-        aux_feature = self.embb(new_vec)[:, :60]
+        aux_feature = self.embb(new_vec)[:, :36]
         # print("位置编码时间:{}".format(time.time() - time111))
         # print(time.time() - time111)
         feature = torch.cat([sphere_latent, aux_feature], dim=1)

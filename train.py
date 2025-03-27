@@ -35,10 +35,10 @@ class MyTrain():
             print(msg)
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--mesh_dir_path', default='/home/wzj/PycharmProjects/sphere_resconstruct/thingi32_obj'
+    parser.add_argument('--mesh_dir_path', default='/home/wzj/PycharmProjects/Dual-Spherical-Shell/thingi32_obj'
                                                    '', help='Log dir [default: data/obj/mesh]')
-    parser.add_argument('--safe_sphere_dir_path', default='/home/wzj/PycharmProjects/sphere_resconstruct/thingi32_safe512/', help='sphere dir [default: data/sphere/mesh]')
-    parser.add_argument('--inner_sphere_dir_path',default='/home/wzj/PycharmProjects/sphere_resconstruct/thingi32_inner512/',help='innersphere')
+    parser.add_argument('--safe_sphere_dir_path', default='/home/wzj/PycharmProjects/Dual-Spherical-Shell/thingi32_shells/thingi32_safe512/', help='sphere dir [default: data/sphere/mesh]')
+    parser.add_argument('--inner_sphere_dir_path',default='/home/wzj/PycharmProjects/Dual-Spherical-Shell/thingi32_shells/thingi32_inner512/',help='innersphere')
     parser.add_argument('--output_dir_path', default='results/thingi32_512', help='output_dir_path [default: results/trans]')
     parser.add_argument('--max_epoch', type=int, default=200, help='Epoch to run [default: 256]')
     parser.add_argument('--sample_num', type=int, default=200000, help='Sampled point num')
@@ -61,6 +61,6 @@ if __name__ == "__main__":
     args.sphere_num=256
     args.max_epoch=150
     args.output_dir_path='results/no_trans_hard'''
-    os.system('cp {} {}'.format(os.path.join('oversdf_'+'default.py'), args.output_dir_path))
+    # os.system('cp {} {}'.format(os.path.join('oversdf_'+'default.py'), args.output_dir_path))
     train = MyTrain()
     train.run(args)

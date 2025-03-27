@@ -19,7 +19,8 @@ class MeshDataset(Dataset):
         self.sample_num = samplenum
         self.mesh = sphereSampler.mesh
         self.importance_sampler = sphereSampler.importanceSampler
-        self.sample_list = ['rand','importance','importance','importance','importance','importance','importance','importance','importance','rand','trace']
+        # self.sample_list = ['rand','importance','importance','importance','importance','importance','importance','importance','importance','rand','trace']
+        self.sample_list = ['rand', 'importance', 'trace']
         # self.sample_list = ['rand', 'rand', 'rand', 'rand', 'rand', 'rand']
         # self.sample_list = [ 'trace', 'trace']
         mesh_name = os.path.split(sphereSampler.mesh_file)[1]
