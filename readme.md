@@ -21,7 +21,7 @@ As shown in the figure below, during rendering, we utilize the dual spherical sh
 ## Experiment
 ![image](imgs/exp1.png)
 ![image](imgs/exp2.png)
-![image](imgs/exp4.png)
+![image](imgs/exp4.jpg)
 ![image](imgs/exp3.png)
 ![image](imgs/exp5.png)
 
