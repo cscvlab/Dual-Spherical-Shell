@@ -79,9 +79,6 @@ https://github.com/nv-tlabs/nglod <br>
 https://github.com/u2ni/ICML2021 <br>
 https://github.com/NVIDIAGameWorks/kaolin <br>
 
-## License
-This project is licensed under the terms of the LGPL License (see `LICENSE` for details).
-
 ## Citation
 
 ```bibtex
