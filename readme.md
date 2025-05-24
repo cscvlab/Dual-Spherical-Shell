@@ -73,13 +73,13 @@ python eval_ssim.py
 
 ## Third-Party Libraries
 
-This code includes code derived from 3 third-party libraries
+This code includes code derived from 3 third-party libraries:
 
-https://github.com/nv-tlabs/nglod <br>
-https://github.com/u2ni/ICML2021 <br>
-https://github.com/NVIDIAGameWorks/kaolin <br>
+- [NGLOD](https://github.com/nv-tlabs/nglod)  
+- [ICML2021 (u2ni)](https://github.com/u2ni/ICML2021)  
+- [Kaolin (NVIDIA GameWorks)](https://github.com/NVIDIAGameWorks/kaolin)  
 
-## Citation
+## CitationNGLOD
 
 ```bibtex
 @inproceedings{Wang2025DSS,
