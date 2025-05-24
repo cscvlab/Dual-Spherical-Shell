@@ -85,7 +85,7 @@ This project is licensed under the terms of the LGPL License (see `LICENSE` for 
 ## Citation
 
 ```bibtex
-@inproceedings{Ding2025IFPS,
+@inproceedings{Wang2025DSS,
   title={Neural Implicit Reconstruction and Fast Rendering Based on Dual Spherical Shell},
   author={Wang, Zijian and Liu, Yuqi and Zhao, Yan and Wang, Binghao and Cai, Shen and Zhang, Yanting},
   booktitle={IEEE International Conference on Multimedia and Expo (ICME)}, 
