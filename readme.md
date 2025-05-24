@@ -22,7 +22,7 @@ Given a number of pre-computed concentric spheres, local SDF fitting within DSS 
 ### Early Termination and Parallel Sphere Tracing (S.T.)
 
 <p align="center">
- <img src="imgs/parallelST.png" width = "800" alt="ifps" align=center />
+ <img src="imgs/parallelST.png" width = "700" alt="ifps" align=center />
 </p>
 
 ### Advantages
