@@ -33,11 +33,7 @@ Given a number of pre-computed concentric spheres, local SDF fitting within DSS 
 4. **NeuS improvement**: new sampling strategy; improvements in both accuracy and speed.
 
 ## Dataset
-We use Thingi10k and NeRF synthetic datasets, both of which are available from their official website.
-### Thingi10k
-You can download them at https://ten-thousand-models.appspot.com/
-### NeRF synthetic
-https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1
+We use [Thingi10k](https://ten-thousand-models.appspot.com/) and [NeRF synthetic](https://drive.google.com/drive/folders/128yBriW1IG_3NJ5Rp7APSTZsJqdJdfc1) datasets, both of which are available from their official websites.
 
 ## Getting started
 ### Python dependencies
