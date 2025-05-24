@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/299ff0ca-cef6-47b8-9125-fa4cbc0768fc)# Dual Spherical Shell (DSS)
+# Dual Spherical Shell (DSS)
 
 This repository is the official implementation of our paper, accepted by IEEE International Conference on Multimedia and Expo (**ICME 2025**):
 
