@@ -81,3 +81,14 @@ https://github.com/NVIDIAGameWorks/kaolin <br>
 
 ## License
 This project is licensed under the terms of the LGPL License (see `LICENSE` for details).
+
+## Citation
+
+```bibtex
+@inproceedings{Ding2025IFPS,
+  title={Neural Implicit Reconstruction and Fast Rendering Based on Dual Spherical Shell},
+  author={Wang, Zijian and Liu, Yuqi and Zhao, Yan and Wang, Binghao and Cai, Shen and Zhang, Yanting},
+  booktitle={IEEE International Conference on Multimedia and Expo (ICME)}, 
+  year={2025},
+}
+```
