@@ -1,4 +1,4 @@
-# Dual Spherical Shell (DSS)
+![image](https://github.com/user-attachments/assets/299ff0ca-cef6-47b8-9125-fa4cbc0768fc)# Dual Spherical Shell (DSS)
 
 This repository is the official implementation of our paper, accepted by IEEE International Conference on Multimedia and Expo (**ICME 2025**):
 
@@ -15,24 +15,22 @@ Given a number of pre-computed concentric spheres, local SDF fitting within DSS 
 
 ### Local SDF Fitting within DSS
 
+<p align="center">
+ <img src="imgs/localFitting.png" width = "800" alt="ifps" align=center />
+</p>
+
 ### Early Termination and Parallel Sphere Tracing (S.T.)
 
+<p align="center">
+ <img src="imgs/parallelST.png" width = "800" alt="ifps" align=center />
+</p>
 
+### Advantages
 
-## Network
-The dual spherical shell effectively constrains the upper and lower bounds of the SDF values, which helps to reduce the fitting difficulty. We assign an implicit vector to each sphere center to participate in the fitting, as shown in the figure below. The 3D vector between the fitting point and the sphere center is position-encoded and then concatenated with the implicit vector associated with the sphere center. This concatenated input is fed into an MLP, which ultimately outputs the predicted SDF value.
-![image](imgs/fig3.png)
-
-## Rendering
-As shown in the figure below, during rendering, we utilize the dual spherical shell to eliminate unnecessary sphere tracing components and also exclude spaces that are not enclosed by the spherical shell.
-![image](imgs/fig4.png)
-
-## Experiment
-![image](imgs/exp1.png)
-![image](imgs/exp2.png)
-![image](imgs/exp4.jpg)
-![image](imgs/exp3.png)
-![image](imgs/exp5.png)
+1. **High-fidelity Reconstruction**: low reconstruction error, in terms of chamfer distance.
+2. **Memory and Storage Efficiency**: small number of pre-computed geometric primitives.
+3. **Rendering acceleration**: early termination and parallel sphere tracing (brings about 40% speed-up).
+4. **NeuS improvement**: new sampling strategy; improvements in both accuracy and speed.
 
 ## Dataset
 We use Thingi10k and NeRF synthetic datasets, both of which are available from their official website.
