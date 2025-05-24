@@ -6,15 +6,14 @@ This repository is the official implementation of our paper, accepted by IEEE In
 
 __Authors:__ Zijian Wang, Yuqi Liu, Yan Zhao, Binghao Wang, Shen Cai*, Yanting Zhang.
 
-**Links:** [[Video(Youtube)]](https://youtu.be/uHoOZuhxPY0)
+**Links:**  [[Video(bilibili)]](https://www.bilibili.com/video/BV17pdxYJEYM/) [[Video(Youtube)]](https://youtu.be/uHoOZuhxPY0)
 
-## Methodology
-We introduce a novel dual spherical shell representation that facilitates accurate reconstruction while keeping low storage demands.By leveraging a Multi-Layer Perceptron (MLP) to overfit the SDF in the interlayer of concentric spheres, we enable the compression and reconstruction of models utilizing neural SDF. Additionally, our  approach enhances the rendering efficiency by capitalizing on the intrinsic properties of spherical shell, which allows for a departure from the traditional sequential sphere tracing method along each ray. Four shapes are shown below. Compared to the previous works[1], our method achieves the high-fidelity and high-compression coding and reconstruction for most of 3D objects in the test dataset.
+## Method
 
-![image](imgs/fig1.jpg)
-As shown below, our dual spherical shell effectively encloses the surface with an interlayer. As the number of spheres increases, the thickness of the spherical shell gradually decreases.
-![image](imgs/fig2.png)
-[1] Towaki Takikawa, Joey Litalien, Kangxue Yin, Karsten Kreis, Charles Loop, Derek Nowrouzezahrai, Alec Jacobson, Morgan McGuire, and Sanja Fidler, “Neural geometric level of detail: real-time rendering with implicit 3d shapes,” in CVPR, 2021.
+### Core idea in one sentence
+Given a number of pre-computed concentric spheres, local SDF fitting within DSS is enabled, and early termination as well as parallel sphere tracing are facilitated for more efficient SDF rendering.
+
+### Graphical Abstract
 
 ## Network
 The dual spherical shell effectively constrains the upper and lower bounds of the SDF values, which helps to reduce the fitting difficulty. We assign an implicit vector to each sphere center to participate in the fitting, as shown in the figure below. The 3D vector between the fitting point and the sphere center is position-encoded and then concatenated with the implicit vector associated with the sphere center. This concatenated input is fed into an MLP, which ultimately outputs the predicted SDF value.
