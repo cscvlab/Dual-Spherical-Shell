@@ -79,7 +79,7 @@ This code includes code derived from 3 third-party libraries:
 - [ICML2021 (u2ni)](https://github.com/u2ni/ICML2021)  
 - [Kaolin (NVIDIA GameWorks)](https://github.com/NVIDIAGameWorks/kaolin)  
 
-## CitationNGLOD
+## Citation
 
 ```bibtex
 @inproceedings{Wang2025DSS,
