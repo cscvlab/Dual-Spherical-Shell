@@ -6,7 +6,7 @@ This repository is the official implementation of our paper, accepted by IEEE In
 
 __Authors:__ Zijian Wang, Yuqi Liu, Yan Zhao, Binghao Wang, Shen Cai*, Yanting Zhang.
 
-**Links:**  [[Video(bilibili)]](https://www.bilibili.com/video/BV17pdxYJEYM/) [[Video(Youtube)]](https://youtu.be/uHoOZuhxPY0)
+**Links:**  [[Video(bilibili)]](https://www.bilibili.com/video/BV17pdxYJEYM/) [[Video(Youtube)]](https://www.youtube.com/watch?v=oB-wbv7FWp8)
 
 ## Method
 
