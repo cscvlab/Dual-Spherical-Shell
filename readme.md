@@ -1,6 +1,6 @@
 # Dual Spherical Shell (DSS)
 
-This repository is the official implementation of our paper, accepted by IEEE International Conference on Multimedia and Expo (**ICME 2025**):
+This repository is the official implementation of our paper, oral presentation in IEEE International Conference on Multimedia and Expo (**ICME 2025**):
 
 **Neural Implicit Reconstruction and Fast Rendering Based on Dual Spherical Shell**
 
