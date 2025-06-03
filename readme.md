@@ -6,7 +6,7 @@ This repository is the official implementation of our paper in IEEE Internationa
 
 __Authors:__ Zijian Wang, Yuqi Liu, Yan Zhao, Binghao Wang, Shen Cai*, Yanting Zhang.
 
-**Links:**  [[Project Page]](www.cscvlab.com) &nbsp; [[Video(bilibili)]](https://www.bilibili.com/video/BV17pdxYJEYM/) &nbsp; [[Video(Youtube)]](https://www.youtube.com/watch?v=oB-wbv7FWp8)
+**Links:**  [[Project Page]](http://www.cscvlab.com/research/DSS/) &nbsp; [[Video(bilibili)]](https://www.bilibili.com/video/BV17pdxYJEYM/) &nbsp; [[Video(Youtube)]](https://www.youtube.com/watch?v=oB-wbv7FWp8)
 
 ## Method
 
